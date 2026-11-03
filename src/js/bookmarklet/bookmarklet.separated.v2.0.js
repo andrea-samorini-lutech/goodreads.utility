@@ -8,8 +8,8 @@ var samoGoodreadsScript=function(url,callback){
 	document.head.insertBefore(script,document.head.firstElementChild);
 };
 samoGoodreadsScript(
-	'https://asamorini.github.io/goodreads.utility/src/js/bookmarklet/config.samo.js',
+	'https://andrea-samorini-lutech.github.io/goodreads.utility/src/js/bookmarklet/config.samo.js',
 	function(){
-		samoGoodreadsScript('https://asamorini.github.io/goodreads.utility/dist/goodreads.utility.min.js')
+		samoGoodreadsScript('https://andrea-samorini-lutech.github.io/goodreads.utility/dist/goodreads.utility.min.js')
 	}
 )
